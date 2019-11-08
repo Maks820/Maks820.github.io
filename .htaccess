@@ -15,6 +15,7 @@ ExpiresByType image/x-icon "access plus 1 month"
 ExpiresByType image/jpeg "access plus 4 weeks"
 ExpiresByType image/png "access plus 30 days"
 ExpiresByType image/gif "access plus 43829 minutes"
+ExpiresByType image/webp "access plus 43829 minutes"
 ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
  
 # Включаем кэширование css, javascript и текстовых файлоф на одну неделю
