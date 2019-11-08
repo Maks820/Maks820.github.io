@@ -305,6 +305,7 @@ body {
 	background-size: cover;
 	background-image: url('../img/pricings-plans_bg.png');
     background-image: -webkit-image-set(url('../img/pricings-plans_bg.webp')1x );
+	background-color: #16151b; 
 
 }
 .reviews__title {
