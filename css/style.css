@@ -299,20 +299,13 @@ body {
 }
 
 .reviews {
-<<<<<<< HEAD
+
     background-repeat: no-repeat;
 	background-position: left;
 	background-size: cover;
 	background-image: url('../img/pricings-plans_bg.png');
     background-image: -webkit-image-set(url('../img/pricings-plans_bg.webp')1x );
-=======
-  background-repeat: no-repeat;
-	background-position: left;
-	background-size: cover;
-	background-image: url('../img/header_bg.png');
-  background-image: -webkit-image-set(url('../img/header_bg.webp')1x );
->>>>>>> 316a1fdc6895346a8e31d6b06ad82c36d66a7cfe
-	background-color: #16151b; 
+
 }
 .reviews__title {
   color: #fff;
