@@ -299,14 +299,12 @@ body {
 }
 
 .reviews {
-
-    background-repeat: no-repeat;
-	background-position: left;
-	background-size: cover;
-	background-image: url('../img/pricings-plans_bg.png');
-    background-image: -webkit-image-set(url('../img/pricings-plans_bg.webp')1x );
-	background-color: #16151b; 
-
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  background-image: url("../img/header_bg.png");
+  background-image: -webkit-image-set(url("../img/header_bg.webp") 1x);
+  background-color: #16151b;
 }
 .reviews__title {
   color: #fff;
@@ -750,7 +748,7 @@ body {
   }
 
   .header__wrap {
-    background-image: url(../img/devices/devices_kopia.jpg) right bottom;
+    background: url(../img/devices/devices_kopia.jpg) right bottom;
   }
   .header__inner {
     text-align: left;
