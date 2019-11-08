@@ -93,8 +93,11 @@ body {
 }
 
 .header {
-  background: url(../img/header_bg.png) no-repeat left;
+  background-repeat: no-repeat;
+  background-position: left;
   background-size: cover;
+  background-image: url("../img/header_bg.png");
+  background-image: -webkit-image-set(url("../img/header_bg.webp") 1x);
   background-color: #16151b;
 }
 .header-top {

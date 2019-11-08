@@ -1,0 +1,172 @@
+@media only screen and (min-width : 425px){
+   .menu{
+    	visibility: visible;
+    	margin-left: 20px;
+    	margin-bottom: 10px;
+    	&__link{
+    		text-decoration: none;
+    	}
+   }
+   .menu-btn{
+   		display: none;
+   }
+   .header__btn_pad{
+		margin-right: 20px;
+	}
+}
+@media only screen and (min-width : 500px){
+
+.amazing-list{
+	flex-direction: row;
+	&__item {
+		width: 24%;
+		text-align: center;
+		margin: 10px;
+	}
+}
+
+.shop{
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	&-item{
+		width: 44%;
+		}
+	}
+}
+@media only screen and (min-width : 527px){
+	.menu{
+  		margin: 10px;
+  	}
+}
+@media only screen and (min-width : 575px){
+	.section-title_extra{
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 48px;
+} 
+.comments{
+  	flex-direction: row;
+  	&-item{
+  		width: 47%;
+  	}
+  }
+}
+@media only screen and (min-width : 600px){
+.contact{
+	&__item{
+		width: 31%;
+		}
+	}
+}
+@media only screen and (min-width : 768px){
+	.section-title_extra{
+	padding-top: 65px;
+	padding-bottom: 88px;
+} 
+.menu{
+    	visibility: visible;
+    	margin-left: 20px;
+    	margin-bottom: 10px;
+    	&__link{
+    		text-decoration: none;
+    	}
+   }
+.header{
+  	&__wrap{
+		background-image: url(../img/devices/devices_kopia.jpg) right bottom;
+	}
+	&__inner{
+		text-align: left;
+		padding-bottom: 25px;
+		}
+	}
+}
+@media only screen and (min-width : 770px){
+	.header{
+		&__main{
+			margin-top: 50px;
+		}
+		&__inner{
+			background: url(../img/devices/Phone_x2.png) no-repeat;
+			background-size: contain;	
+			background-position: right 80px;
+		}
+	}
+	.sending-form-inner{
+		flex-direction: row;
+		padding: 0 60px;
+		
+		&__input{
+			width: 300px;
+			&:last-child{
+			margin-bottom: 0;
+		}
+	}
+		&__message{
+			width: 300px;
+			display: inline-block;
+		}
+		&__submit{
+			margin: 0;
+			margin: 5px 60px 0 auto;
+		}
+				
+	}
+}
+@media only screen and (min-width : 900px){
+   .shop{
+	justify-content: space-between;
+	&-item{
+		width: 24%;
+	}
+}
+}
+@media only screen and (min-width : 1440px){
+	.container{
+  	max-width: 81.25%;
+  }
+	
+}
+@media only screen and (min-width : 1700px){
+   .menu__link{
+   	font-size: 30px;
+   }
+   .header__text{
+   	font-size: 20px;
+   }
+   .amazing-list__title{
+   	font-size: 30px;
+   }
+   .amazing-list__text{
+   	font-size: 20px;
+   }
+   .comments__text{
+   	font-size: 30px;
+   }
+   .author__name{
+   	font-size: 20px;
+   }
+   .author__specialty{
+   	font-size: 20px;
+   }
+   .plan{
+   	font-size: 30px;
+   }
+   .price__number{
+   	font-size: 30px;
+   }
+   .price__sup{
+   	font-size: 15px;
+   }
+   .contact__description{
+   	font-size: 30px;
+   }
+   .copyright{
+   	font-size: 20px;
+   }
+}
+
+@media only screen and (min-width : 2000px){
+  
+}

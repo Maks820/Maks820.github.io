@@ -1,0 +1,140 @@
+.header {
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: cover;
+	background-image: url('../img/header_bg.png');
+    background-image: -webkit-image-set(url('../img/header_bg.webp')1x );
+	background-color: #16151b; 
+	&-top {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}	
+	&__main {
+			max-width: 480px;
+			display: inline-block;
+			}
+		&_theme-description {
+				color: #008ed6;
+				font-size: 14px;
+				font-weight: 700;
+				letter-spacing: 1.4px;
+				text-transform: uppercase;
+			}
+	
+		&__title {
+			    margin-top: 20px;
+				color: #fff;
+				font-size: 48px;
+				font-weight: 600;
+		}
+		&__text {
+				color: #999999;
+				line-height: 1.4;
+				font-weight: 400;
+		}
+	&__inner{
+		padding-bottom: 10px;
+		text-align: center;
+	}
+}
+
+
+.logo {
+	color: #ffffff;
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 58px;
+		text-transform: uppercase;
+		letter-spacing: -2.4px;
+}
+
+.menu-btn{
+	display: block;
+	width: 40px;
+	height: 40px;
+	background-color: #FFF;
+	border-radius: 50%;
+	position: relative;
+	margin-top: 5px;
+	margin-right: 10px;
+	&__line{
+		display: block;
+		width: 25px;
+		height: 2px;
+		background: #000;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		&_one{
+			top: 33%;
+		}
+		&_two{
+			top: 50%;
+		}
+		&_free{
+			top: 67%;
+		}
+	}
+}
+
+.menu {
+	visibility: hidden;
+	&__list{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		
+	}
+	&__item {
+		margin: 5px;
+		list-style: none;
+		margin-left: 5px;
+		margin-right: 5px;
+		position: relative;
+	}
+	&__item::before{
+		content:'';
+		display: block;
+		width: 20px;
+		height: 2px;
+		background-color: #008ed6;
+		position: absolute;
+		bottom: -10px;
+		left: 49%;
+		transform: translateX(-200%);
+		opacity: 0;
+		transition: .2s all;
+	}
+	&__item::after{
+		content:'';
+		display: block;
+		width: 20px;
+		height: 2px;
+		background-color: #008ed6;
+		position: absolute;
+		bottom: -10px;
+		right: 49%;
+		transform: translateX(200%);
+		opacity: 0;
+		transition: .2s all;
+	}
+	&__link {
+		
+		color: #fff;
+	}
+	&__item:hover::before {
+		transform: translateX(-100%);
+		opacity: 1;
+	}
+	&__item:hover::after {
+		transform: translateX(100%);
+		opacity: 1;
+	}
+}
+.visible{
+	visibility: visible;
+}
+.buttons-wrap {
+	margin-top: 60px;
+}

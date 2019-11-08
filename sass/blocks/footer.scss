@@ -1,0 +1,32 @@
+.footer{
+	background-color: #15141A;
+	text-align: center;
+	padding: 60px 0  45px 0;
+	&__wrap{
+		display: inline-block;
+	}
+}
+.social-network {
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 33px;
+  
+   a img{
+   vertical-align: middle;
+   }
+}
+.copyright {
+	color: #444348;
+ 	font-size: 14px;
+    font-weight: 700;
+}
+.social-network__img{
+	width: 18px;
+	height: 18px;
+	fill: #444348;
+	transition: .2s linear fill;
+}
+
+.social-network__img:hover{
+	fill: #008ED6;
+}

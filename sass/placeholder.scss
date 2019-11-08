@@ -1,0 +1,14 @@
+::-webkit-input-placeholder { padding-left: 17px;}
+::-moz-placeholder          { padding-left: 17px;}/* Firefox 19+ */
+:-moz-placeholder           { padding-left: 17px;}/* Firefox 18- */
+:-ms-input-placeholder      { padding-left: 17px;}
+
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+
+.sending-form-inner__message::-webkit-input-placeholder {padding-top: 10px;}
+.sending-form-inner__message::-moz-placeholder          {padding-top: 10px;}/* Firefox 19+ */
+.sending-form-inner__message:-moz-placeholder           {padding-top: 10px;}/* Firefox 18- */
+.sending-form-inner__message:-ms-input-placeholder      {padding-top: 10px;}

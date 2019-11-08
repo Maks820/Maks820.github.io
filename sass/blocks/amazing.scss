@@ -1,0 +1,38 @@
+
+.amazing-list {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	padding-bottom: 60px;
+	&__item {
+		text-align: center;
+		margin: 10px;
+	}
+	&__icon {
+	display: inline-block;
+	width: 88px;
+	height: 88px;
+	border: 1px solid #e0e0e0;
+	border-radius: 50%;
+	}
+	&__title {
+	color: #999999;
+	font-family: "Source Sans Pro";
+	font-size: 18px;
+	font-weight: 400;
+	}
+	&__text {
+		color: #999999;
+		font-size: 14px;
+		max-width: 230px;
+		margin:0 auto;
+	}
+}
+.amazing-flex-wrap{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;  
+}
+
+
